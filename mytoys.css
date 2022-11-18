@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+fieldset#st {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/18/16/16/teddy-bear-1835598_640.jpg");
+    -webkit-filter: blur(0.1px);
+    background-position: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+label {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+fieldset {
+    background-color: wheat;
+    text-align: center;
+    width: 30%;
+    margin: 5px auto;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+button {
+    border: 1px solid rgb(212, 181, 2);
+    color: black;
+    background-color: rgb(248, 248, 180);
+    border-radius: 5px;
+}
+section {
+    color: wheat;
+    padding: 15px;    
+}
+button#earnings {
+    position: relative;
+    left: auto;
+    right: auto;
+}
