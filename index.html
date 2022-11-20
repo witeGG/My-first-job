@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-5 Job Calculator</title>
+    <link rel="stylesheet" href="mytoys.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2018/03/02/15/04/bag-3193368__340.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <fieldset id="st">
+        <label for="salary">Podaj stawkę brutto / h</label>
+        <input type="number" name="salary" id="salary" min="5" max="100" required>
+        <br>
+
+        <label for="hours">Ile dziś godzin pracujesz? </label> 
+        <input type="number" id="hours" max="12" min="1" required>
+        <br>
+        <button type="submit" id="next">Oblicz</button>
+        <br>
+        <br>
+        <i class="fa fa-eur" aria-hidden="true"> 4.70 pln</i>
+    </fieldset>
+    <p id="news"></p>
+    <hr>
+    <article id="article"></article>
+
+
+
+
+
+    <script src="mytoys.js"></script>
+</body>
+</html>
