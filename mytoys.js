@@ -27,5 +27,4 @@ function count () {
     section.innerHTML = salary.value * workHours + " € brutto <br>" + salary.value * workHours * 0.73 + " € netto. <br>" + (salary.value * workHours * 0.73 * 4.7).toFixed(2) + " zł netto"
     article.prepend(section);
     article.classList.add
-    alert((salary.value * workHours).toFixed(2) + " € brutto " + (salary.value * workHours * 0.73).toFixed(2) + " € netto. " + (salary.value * workHours * 0.73 * 4.7).toFixed(2) + " zł netto")
 }
